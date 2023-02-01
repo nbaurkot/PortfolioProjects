@@ -1,4 +1,4 @@
-Download data
+Download data 
 Store data in 2 folders, "Raw data" and "cleaned data" folders raw data is completely un-edited and files are in their state as received
 Clean Data
 Merge all files in Excel, create new files seperate from the raw data files
