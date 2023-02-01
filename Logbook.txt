@@ -1,0 +1,60 @@
+Download data
+Store data in 2 folders, "Raw data" and "cleaned data" folders raw data is completely un-edited and files are in their state as received
+Clean Data
+Merge all files in Excel, create new files seperate from the raw data files
+remove poor formatting
+remove all commas to reduce issues with upload to microsoft SQL Server
+Upload to SQL Server
+Error uploading files with wide columns and many characters
+Change column width in SQL
+Upload complete
+Change data types
+	Issue with ID formatting
+	Delete tables from SQL Server
+change ID columns in excel workbook to Numbers from scientific formatting
+ID columns no longer "Round up" on scientific formatting and can be used easier in SQL server
+Create CSV files to upload to SQL server
+Use Stored programs to convert data types again
+Data types needed to be changed for proper use of aggregate functions
+Begin data exploration
+questions
+1)total number of transactions?
+2)total number of transactions per year
+3)Total revenue?
+4)Total revenue per year
+5)Total amount of fees?
+6)total amount of fees spent per item listed.
+	Not able to get the number since tax $ is included in fees columns
+	$0.20 Fee added to each listing every 4 months an item is listed.
+	$0.20 Fee added for each item sale
+7)how long has each item been listed?
+	unable to find due to data contraints
+8)Average order total
+9)What time of year is most popular for purchases
+10)New customers vs repeat cutomers?
+11)Where are people buying? create a sales map
+12)What percent of listings have sold vs what percent of listings have never sold?
+13) what are the top (n) Products sold?
+Exploration finished (Check sql file to see code for each question above)
+Upload SQL section to github
+Start to create visualizations in Tableau
+create KPI's section
+Gross revenue, Net Revenue, Total Fees, Average order total, 2020/2021/2022 sales
+Create bar chart
+Total orders per year
+Create line chart
+Monthly orders, shows which months are most popular
+create sales map
+Sales map
+Create bubble chart 
+top 10 selling products
+Create pie charts
+New vs returning customers, percent of listings sold
+Add stock photo of etsy
+Finish visualizations formatting
+posted to tableau public
+Areas for improvement
+Joining tables to allow for better filtering and usability of dashboard
+The way the visualizationswere created did not allow for good filtering in the dashboard, for example, id you click on 2021 sales it will not change KPI's or bubble chart to reflect the 2021 data. If I was restarting this project I would focus on making this feature available.
+Formatting could be improved in terms of visual readability
+Upload Logbook to github
