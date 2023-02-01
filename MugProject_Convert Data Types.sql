@@ -1,4 +1,4 @@
---Etsy_Deposits Table 
+--Etsy_Deposits Table
 BEGIN TRANSACTION
 GO
 
