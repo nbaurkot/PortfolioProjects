@@ -1,4 +1,3 @@
- 
 --Total Order number per year
 SELECT 
     SUM(CASE WHEN YEAR(Order_Date) = 2020 THEN 1 ELSE 0 END) AS '2020 Orders',
